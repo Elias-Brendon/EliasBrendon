@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Elias Brendon Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Portfolio_Home.css">
+    <script src="Port.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>Elias Brendon K</p>
+        </div>
+        <div class="Nav_ul">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li onclick="portfolio()">Projects</li>
+                <li><a href="#education">Education & Skills</a></li>
+                <li><a href="#life">Life</a></li>
+                <li><a href="#contact_info">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner" id="home">
+        <img src="" alt="Banner Image">
+        <div class="location">
+            <p>LOCATION</p>
+            <i class="fa-solid fa-earth-asia"></i>
+        </div>
+        <h1>ELIAS BRENDON KUFAKUNESU - ELIAS BRENDON KUFAKUNESU</h1>
+    </div>
+    <div class="ABOUT" id="aboutme">
+        <div class="message">
+            <h2>THE NEW ERA</h2>
+            <p>BRINGING FORTH GENIUS AND IMPACCABLE IDEAS INTO REALITY. HELPING AND IMPROVING PEOPLE’S LIVES THROUGH ROBUST AUTOMATION, MECHANICAL AND ELECTRICAL ENGINEERING DOVETAILED TOGETHER WITH ROBOTICS AND MECHATRONICS.</p>
+        </div>
+        <div class="intro">
+            <div class="quote">
+                <h4>ROBOTICS AND MECHATRONICS</h4>
+                <p>BRINGING <span>CUTTING EDGE</span> SOLUTIONS TO AUTOMATE, <span>INNOVATE</span>, MANAGE AND MAINTAIN</p>
+                <p class="p2">
+                    Welcome to my website! I am a dedicated second-year robotics student with a passion for exploring the intricacies of automated systems and intelligent machines. My journey in robotics is fueled by a deep curiosity for how mechanical, electrical, and computational elements come together to create innovative solutions. I am committed to advancing my skills and knowledge in areas such as control systems, machine learning, and embedded programming. Through my academic pursuits and hands-on projects, I aim to contribute to the development of cutting-edge technologies that enhance efficiency and improve quality of life. Join me as I document my experiences, share insights, and connect with fellow enthusiasts in the ever-evolving world of robotics.
+                </p>
+                <button class="download_cv" onclick="Download_CV()">Curriculum Vitae <i class="fa-solid fa-download"></i></button>
+            </div>
+            <div class="video_intro">
+                <video id="Personal_intro" controls>
+                    <source src="videos/intro.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p><i class="fa-solid fa-play"></i> WATCH SHORT INTRO</p>
+            </div>
+        </div>
+    </div>
+    <!--END OF ABOUT SECTION-->
+    <div class="PROJECTS">
+        <h1>MY</h1>
+        <h1>PROJECTS</h1>
+        <!--Carousel part-->
+        <div class="folio">
+            <div class="one hidden">
+                <!--Embedded-->
+                <div class="slide">
+                    <h2>Embedded Microcontrollers</h2>
+                     <p>
+                        Embedded microcontrollers are specialized microprocessors designed to perform dedicated tasks within an embedded system. Unlike general-purpose processors found in personal computers, embedded microcontrollers are optimized for controlling specific hardware functions and often operate within larger systems without direct user interaction
+                     </p>
+                     <a href="#">Details</a>
+                </div>
+            </div>
+            <div class="two hidden">
+                <!--Digital -->
+                <div class="slide">
+                    <h2>Digital and Data system</h2>
+                    <p>Autonomus Mine removal vehicle,
+                    This project is made using a small robote prototype , 2 light sensors , 2 motors and one servo motor.The program was made in Matlab</p>
+                    <a href="https://drive.google.com/drive/folders/1px4mJ7SvMQiaJxJMH3Cy01FSGkcnZKpw?usp=drive_link">Details</a>
+                </div>
+
+            </div>
+            <div class="three hidden">
+                <!--Research Mat-->
+                <div class="slide">
+                    <h2>Formula One Vehicle Chassis</h2>
+                    <p>This project explores the intricate details and technical consideration in choosing appropiate material for developing vehicle chassis</p>
+                     <a href="https://drive.google.com/drive/folders/1px4mJ7SvMQiaJxJMH3Cy01FSGkcnZKpw?usp=drive_link">Details</a>
+                </div>
+            </div>
+            <div class="four hidden_two">
+                <!--Webdesign-->
+                <div class="slide">
+                    <h2>Full stack web development</h2>
+                    <p>Design , coding and publishing a responsive full website with a complete database using mysql , javascript , css and Html</p>
+                    <a href="https://drive.google.com/drive/folders/1px4mJ7SvMQiaJxJMH3Cy01FSGkcnZKpw?usp=drive_link">Details</a>
+                </div>
+            </div>
+            <div class="five hidden_two">
+                <!--designs-->
+                <div class="slide">
+                    <h2>ENGINEERING designs
+                    </h2>
+                    <p>Designed full shell eco maraton urban concept vehicle using solidworks</p>
+                    <a href="https://drive.google.com/drive/folders/1px4mJ7SvMQiaJxJMH3Cy01FSGkcnZKpw?usp=drive_link">Details</a>
+                </div>
+            </div>
+            <div class="six hidden_two">
+                <!---EWB-->
+                <div class="slide">
+                    <h2>EWB reseach project challenge </h2>
+                    <p>Help EWB Austrailia community in providing an affordable and realistic solution to small village in Cambodia</p>
+                    <a href="https://drive.google.com/drive/folders/1px4mJ7SvMQiaJxJMH3Cy01FSGkcnZKpw?usp=drive_link">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--EDUCATION AND SKILLS-->
+    <div class="EDU" id="education">
+        <h2><i class="fa-solid fa-book-open-reader"></i> EDUCATION AND SKILLS</h2>
+        <div class="edu_section">
+            <div class="focus">
+                <h2>FOCUS</h2>
+                <p>DISCIPLINE, CONSISTENT AND HARD WORKING IS THE KEY TO SUCCESS</p>
+                <button class="more">MORE</button>
+            </div>
+            <div class="templates">
+                <div class="degree">
+                    <h1>BACHELOR IN ROBOTICS</h1>
+                    <p class="thum">SWINBURNE UNIVERSITY</p>
+                </div>
+                <div class="ALEVEL">
+                    <h1>A LEVEL</h1>
+                    <p class="thum">RUSUNUNGUKO HIGH SCHOOL</p>
+                </div>
+                <div class="OLEVEL">
+                    <h1>O LEVEL</h1>
+                    <p class="thum">RUSUNUNGUKO HIGH SCHOOL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--LIFE AND HOBBIES-->
+    <div class="life_and_hobbies" id="life">
+        <h2><i class="fa-solid fa-leaf"></i> LIFE & HOBBIES</h2>
+        <!--To make into scrolling effect and creative to hook-->
+        <div class="HOBBIES">
+            <div class="hike">
+                <div class="life_slide">
+                    <h3>Hiking</h3>
+                    <p>Hiked Mt Santubong 2000m</p>
+                </div>
+            </div>
+            <div class="drone">
+                <div class="life_slide">
+                    <h3>Drone</h3>
+                    <p>Semi pro drone pilot with over 100hrs flight time</p>
+                </div>
+            </div>
+            <div class="motorsports">
+                <div class="life_slide">
+                    <h3>MotorGp</h3>
+                    <p>As an engineer it comes natural to like motorsports</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CONTACT-->
+    <div class="contact" id="contact_info">
+        <div class="person">
+            <div class="circle"></div>
+            <ul class="Social_icons">
+                <li><i class="fa-brands fa-linkedin" onclick="linkden ()"></i></li>
+                <li><i class="fa-brands fa-whatsapp" onclick="whatsApp()"></i></li>
+                <li><i class="fa-brands fa-x-twitter" onclick="twitter()"></i></li>
+                <li><i class="fa-brands fa-facebook" onclick="facebook()"></i></li>
+            </ul>
+            <p>Let's work together for a better tomorrow</p>
+        </div>
+        <div class="details">
+        <form onsubmit="sendEmail(); reset(); return false" >
+            <div class="name">
+                <input type="text" name="Firstname" id="Name" placeholder="First name" required>
+                <input type="text" name="Lastname" id="Surname" placeholder="Last name" required>
+            </div>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="tel" name="phone" id="phone" placeholder="Phone">
+            <textarea name="message" id="message" rows="10" class="message_b" placeholder="Write a review or message to Elias" required></textarea>
+            <div class="sos">
+                <button type="submit" class="SEND">SEND</button>
+                <button class="Resume" onclick="Download_CV()">Resume <i class="fa-solid fa-download"></i></button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <button id="scrollup" onclick="scrollToTop()">
+        <i class="fa-solid fa-angle-up"></i> 
+    </button>
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> eliaskufakunesu3@gmail.com</p>
+        <p>by Elias Brendon</p>
+    </footer>
+</body>
+</html>

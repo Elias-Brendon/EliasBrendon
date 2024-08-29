@@ -1,0 +1,1104 @@
+:root {
+    --theme_blue_color:#0c81cb;
+    --project_bg_color:#cad5e4;
+    --contact_text_color:#80b6d9;
+    --contact_header:#3a97d2;
+    
+}
+@media (max-width: 1200px  ) {
+body {
+    font-size: 14px;
+    overflow-x: hidden;
+}
+.logo {
+    display: none;
+}
+.ABOUT .intro {
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ min-width: 100%;
+ position:relative;
+
+}
+video {
+    display: none;
+}
+.PROJECTS {
+    display: relative;
+
+}
+ .three  {
+    display: none;
+}
+.four {
+    display: none;
+}
+.five {
+    display: none;
+}
+.six {
+    display: none;
+}
+
+.PROJECTS .folio {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #cad5e4;
+    padding: 10px;
+    height: inherit;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+}
+.templates .OLEVEL  {
+    display: none; 
+    background-image: none;
+}
+.templates .ALEVEL {
+    display: none;
+    background-image: none;
+}
+.edu_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.edu_section .focus {
+    margin-left: 60px
+}
+.edu_section .templates {
+margin-right: 30px;
+margin-left: auto;
+
+}
+.edu_section .templates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.edu_section .templates .degree {
+    transform: translateX(-30px) ;
+}
+.life_and_hobbies {
+    height: 40vh;
+}
+.life_and_hobbies .HOBBIES .hike ,.drone ,.motorsports {
+    width: 250px;
+    height:250px;
+}
+.life_and_hobbies .HOBBIES .motorsports {
+    width: 250px;
+    height: 250px;
+}
+.life_and_hobbies .HOBBIES .drone {
+    width: 250px;
+    height: 250px;
+}
+.life_and_hobbies .HOBBIES {
+    gap: 20px;
+}
+.contact .name {
+    display: flex;
+    flex-direction: column;
+}
+.contact .name #Name {
+    width: 500px;
+}
+ body footer p {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+    
+}
+@media (max-width:600px){
+  body {
+    font-size: small;
+  }
+   body nav .Nav_ul ul li{
+        margin-right: 15px;
+        font-size: 14px;
+        cursor: pointer;
+        padding-bottom: 2px;
+        border-bottom: none;
+        transition: .25s ease-in-out;
+        
+    }
+    body nav {
+        height: 40px
+    }
+    body .banner h1 {
+        font-size: 120px;
+    }
+    body .banner .location {
+        width: 150px;
+        height: 50px;
+    }
+    .ABOUT .intro {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+        position:relative;
+        margin-bottom: 0px;
+       
+       }
+       .ABOUT .intro  .quote {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 30px;
+       }
+       .ABOUT .intro  .quote p {
+        overflow-wrap: wrap;
+        width: 90%;
+       }
+
+       body .PROJECTS {
+        margin-top: 0px;
+        height: 100vh;
+       }
+       body .PROJECTS .folio .one {
+        width: 300px;
+        height: 350px;
+       }
+       body .PROJECTS .folio .two {
+        width: 300px;
+        height: 350px;
+       }
+       body .PROJECTS .folio .three {
+        width: 300px;
+        height: 350px;
+        display: none ;
+       }
+       body .PROJECTS .folio .four {
+        width: 300px;
+        height: 350px;
+        display: none ;
+       }
+       body .PROJECTS .folio .five {
+        width: 300px;
+        height: 350px;
+        display: none ;
+       }
+       body .PROJECTS .folio .six {
+        width: 300px;
+        height: 350px;
+        display: none ;
+       }
+       body .PROJECTS .folio .slide h2{
+         font-size: 15px;
+       }
+       body .PROJECTS .folio .slide p {
+        font-size: 12px;
+       }
+     body .EDU h2 {
+        font-size:  20px;
+        height: 80vh;
+        width: 100%;
+        margin-left: 50px;
+     }
+
+    body .EDU .edu_section  {
+        transform: translateY(-150px);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    body .EDU .edu_section .focus {
+        height: 200px;
+
+    }
+    body .EDU .edu_section .focus h2 {
+
+        font-size: 15px;;
+        margin: 5px auto 5px 0px;
+    }
+    body .EDU .edu_section .focus p {
+        font-size: 12px;
+    }
+    body .EDU .edu_section .focus .more {
+        margin-top:0px;
+
+    }
+    body .EDU .edu_section .templates .degree {
+      transform:translateY( 40px) translateX(-100px);
+    }
+    body .contact {
+        position: relative;
+        width: 100%;
+    }
+    body .contact .person {
+        margin-bottom: 0px;
+    }
+    body .contact .details {
+        gap:30px
+    }
+   body .contact .person .circle {
+    width: 60px;
+    height: 60px;
+   } 
+   body .contact .person p {
+    font-size: 18px;
+   }
+   body .contact .person ul li {
+    font-size: 18px;
+   }
+   body .contact .details .name {
+    gap: 30px;
+   }
+   body .contact .details .name #Name {
+    width: 300px;
+    height: 40px;
+   }
+   body .contact .details .name  #Surname {
+    width: 300px;
+    height: 40px;
+   }
+   body .contact .details #email {
+    width: 300px;
+    height: 40px;
+   }
+   body .contact .details #phone {
+    width: 300px;
+    height: 40px;
+   } 
+   body .life_and_hobbies {
+    width: 100%;
+    height: 80vh;
+   }
+   body .life_and_hobbies h2 {
+    font-size: 20px;
+   }
+   body .life_and_hobbies .HOBBIES {
+    transform: translateY(-20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   }
+   body .life_and_hobbies .HOBBIES .hike {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+   }
+   body .life_and_hobbies .HOBBIES .drone {
+    display: none;
+   }
+   body .life_and_hobbies .HOBBIES .motorsports {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+   }
+
+   body footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+   }
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;  
+    font-family: "Open Sans", sans-serif; 
+    overflow-x: hidden;  
+
+}
+nav {
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    background-color: white;
+    top:0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+nav .logo {
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    width: fit-content;
+    height: inherit;  
+
+}
+nav .logo p {
+    font-size: 20px;
+}
+nav .Nav_ul {
+    width: fit-content;
+    height: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Roboto", sans-serif;
+
+}
+ body .banner {
+    margin-top: 20px;
+    height: 400px;
+}
+
+
+nav .Nav_ul ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+}
+
+nav .Nav_ul ul li{
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: none;
+    transition: .25s ease-in-out;
+    
+}
+nav .Nav_ul ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav .Nav_ul ul li a::after {
+    color: black;
+    text-decoration: none;
+}
+nav .Nav_ul ul li:first-child{
+    border-bottom: 1px solid black;
+}
+.banner {
+    width:100%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-image: url("/IMAGES/BACKG.jpg");
+    background-size: cover;
+}
+.banner .location{
+    height: 70px;
+    width: 200px;
+    border-radius: 0px 40px 40px 0px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+}
+.banner .location p {
+    font-size: 14px;
+  
+}
+.banner h1 {
+    font-size: 200px;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-wrap: nowrap;
+    font-weight: lighter;
+    transition: .3s ease-in-out;
+    animation: marquee 5s infinite;
+ 
+}
+.banner h1:hover{
+    transition: .3s ease-in-out;
+    
+}
+
+
+.ABOUT {
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+    min-height: 1080px;
+    position: relative;
+    margin: 0px;
+    margin-top: 40px;
+}
+.ABOUT .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.ABOUT .message h2 {
+    font-size: 18px;
+}
+.ABOUT .message p {
+    font-size: 12px;
+    font-weight: 300;
+    width: 45%;
+    text-align: center;
+    color: rgb(80, 108, 124);
+    padding: 8px;
+    letter-spacing: 2px;
+}
+.ABOUT .intro {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+}
+.intro{
+    margin-top: 100px;
+}
+.video_intro {
+
+    width: 600px;
+    height: 600px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px  200px 0px auto;
+}
+.quote {
+    margin: 0px auto  0px 200px ;
+}
+.quote h4 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+.quote .p2{
+    width: 60%;
+    font-size: 14px;
+    margin: 20px auto 30px 0px;
+    color: rgb(80, 108, 124);
+}
+.quote p span {
+    color: #0c81cb;
+    font-weight: 700;
+}
+.quote .download_cv {
+    background-color: #0c81cb;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+}
+.PROJECTS{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 120vh;
+    min-height: 1296px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.PROJECTS h1 {
+    text-align: center;
+    font-size: 20px;
+}
+.PROJECTS .folio {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #cad5e4;
+    padding: 10px;
+    height: inherit;
+    border-bottom: 2px solid white;
+}
+.PROJECTS .one , .two ,.three ,.four ,.five ,.six {
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    margin: 15px;
+}
+
+.EDU {
+    background-color:#cad5e4;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    min-height: 1080px;
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    position: relative;
+
+}
+.EDU h2 {
+    padding: 10px;
+    margin:50px auto 0px auto;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.edu_section {
+    background-color:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+.templates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+}
+.degree ,.ALEVEL ,.OLEVEL {
+    width: 300px;
+    height: 350px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/IMAGES/christmas-time-7630754_1280.jpg");
+    background-size: contain;
+}
+video {
+    width: 500px;
+    height: 400px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 3px 2px rgb(127, 140, 155);
+    transition: .2s ease-in-out;
+
+}
+video:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+}
+.focus {
+    margin:auto;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.focus h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 0px;
+
+}
+.focus p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.degree{
+    position: relative;
+    transition: .2s ease-in-out;
+    transform: translateX(100px) translateY(100px);
+    z-index: 3;
+
+}
+.ALEVEL {
+    position: relative;
+    z-index: 2;
+    transition: .2s ease-in-out;
+}
+.OLEVEL{
+    position: relative;
+    transform: translateX(-100px) translateY(-100px);
+    z-index: 1;
+    transition: .2s ease-in-out;
+}
+/*Hover edu */
+.degree:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.2)
+}
+.ALEVEL:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.2);
+    z-index: 4;
+}
+
+.OLEVEL:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.2);
+    z-index: 6;
+}
+
+
+.more {
+    width:180px;
+    padding:20px 5px 20px 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color:#0c81cb;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    margin-top: 80px;
+    transition: .25s ease-in-out;
+}
+.degree h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+.ALEVEL h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+.OLEVEL h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+.thum {
+    font-size: 13px;
+    font-weight: lighter;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.life_and_hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    min-height: 756px;
+    position: relative;
+}
+.life_and_hobbies h2 {
+    font-size: 30px;
+    color: #0c81cb;
+    margin: 50px auto 50px auto;
+    font-weight: lighter;
+}
+.life_and_hobbies .hike ,.drone ,.motorsports {
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+}
+.hike{
+    background-image: url("/IMAGES/P2.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.drone{
+    background-image: url("/IMAGES/P3.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.motorsports{
+    background-image: url("/IMAGES/P1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Hover on LIFE */
+.hike:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.5);
+    margin: 0px 50px 0px 50px;
+}
+.drone:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.5);
+    margin: 0px 50px 0px 50px;
+}
+.motorsports:hover {
+    transition: .2s ease-in-out;
+    transform: scaleX(1.5);
+    margin: 0px 50px 0px 50px;
+}
+.HOBBIES {
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    height: inherit;
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    height: 120vh;
+    min-height: 1080px;
+    position: relative;
+    padding: 0%;
+    background-color:#cad5e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin: 0%;
+    gap: 50px;
+}
+.contact .person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .person ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.contact .person ul  li{
+    font-size: 30px;
+    color:#6899b8;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.contact .person .circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    background-image: url("/IMAGES/elias.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contact .person p {
+    color: #0c81cb;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px;
+    margin: 30px auto S;
+}
+#Name ,#email , #phone , #Surname{
+    height: 50px;
+    background-color: white;
+    color: #80b6d9;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    padding:5px;
+} 
+#Surname{
+    width: 500px ;
+}
+#Name {
+ width: 300px;
+}
+.sos{
+    display: flex;
+    justify-content: space-between;
+}
+.message_b{
+background-color: white;
+border-radius: 5px;
+border: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 13px;
+padding: 5px;
+}
+.sos button {
+   font-size: 14px;
+    height: 50px;
+    width: 100px;
+    background-color: #0c81cb;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.name {
+    display: flex;
+    gap:50px;
+}
+.Social_icons {
+    display: flex;
+    margin: auto;
+    gap: 20px ;
+}
+.details form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/*icon styles */
+/*location*/
+.fa-earth-asia {
+    margin-left: 30px;
+    font-size: 30px;
+}
+/*play to watch icon*/
+.fa-play{
+    margin-right: 10px;
+    color: #0c81cb;
+    border: none;
+}
+/* life icon*/
+.fa-leaf {
+    color: orange;
+}
+footer {
+    margin: 0px;
+    padding: 0%;
+    background-color:#0c81cb;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer p {
+    color: white;
+    margin: auto 100px;
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+/* Banner animation */
+@keyframes marquee {
+    
+    0%{ transition: .5s ease-in-out;
+        transform: translateX(0%);}
+    50%{transform: translateX(-50%);}
+    100%{transform: translateX(-100%);}
+}
+/*FOCUS*/
+#Name:focus  ,#email:focus , #phone:focus , #Surname:focus ,.message_b:focus {
+    border: none;
+    outline: none;
+}
+.sos button:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+}
+.contact .person ul  li:hover .fa-brands{
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+    color: #fff;
+}
+.more:hover{
+ transition: .25s ease-in-out;
+ transform: scale(1.1);
+}
+nav .Nav_ul ul li:hover{
+    transition: .25s ease-in-out;
+    border-bottom: 1.5px solid black;
+}
+.qoute .download_cv:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+/*On scroll animations*/
+
+.hidden {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.hidden_two {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
+
+.one {
+    background-image: url('/IMAGES/E1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.two {
+    background-image: url('/IMAGES/E2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.three{
+    background-image: url('/IMAGES/E3.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.four {
+    background-image: url('/IMAGES/E4.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.five{
+    background-image: url('/IMAGES/E5.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.six {
+    background-image: url('/IMAGES/E6.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+/*portfolio designs*/
+.slide {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    padding:0;
+    transition: .5s ease-in-out;
+
+
+}
+.slide h2 {
+    color: #0c81cb;
+    text-align: center;
+
+}
+.slide p {
+    font-size: 13px;
+    text-align: left;
+    padding-left: 10px;
+}
+.slide a {
+    text-decoration: none ;
+    padding: 5px ;
+    color:#6899b8;
+    border: 1px solid #6899b8;
+    margin: 8px  auto 8px 10px;
+    border-radius: 4px;
+    transition: .5s ease-in-out;
+}
+
+.slide a:hover {
+    color:#6899b8;
+    border: 1px solid #fff;
+
+}
+.slide:hover {
+    height: 50%;
+}
+
+/*scroll up button */
+#scrollup {
+    position: fixed;
+    bottom: 20px ;
+    right: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1000;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 1px #007bff ;
+    display: none;
+}
+#scrollup:hover {
+    background-color: #0056b3;
+}
+.life_slide {
+    width: 70%;
+    height: 100px;
+    background: linear-gradient(45deg, red ,blue ,orange );
+    filter: blur(0);
+    opacity: .5;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+
+}
+.life_slide h3 {
+    color: #007bff;
+}
+.life_slide p {
+    color: #6899b8;
+}
