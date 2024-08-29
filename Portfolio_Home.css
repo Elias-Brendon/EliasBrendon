@@ -971,7 +971,7 @@ nav .Nav_ul ul li:hover{
 }
 
 .one {
-    background-image: url('/E1.jpg');
+    background-image: url('E1.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
