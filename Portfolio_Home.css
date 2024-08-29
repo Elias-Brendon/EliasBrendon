@@ -393,7 +393,7 @@ nav .Nav_ul ul li:first-child{
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    background-image: url("/IMAGES/BACKG.jpg");
+    background-image: url("BACKG.jpg");
     background-size: cover;
 }
 .banner .location{
@@ -587,7 +587,7 @@ nav .Nav_ul ul li:first-child{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/IMAGES/christmas-time-7630754_1280.jpg");
+    background-image: url("christmas-time-7630754_1280.jpg");
     background-size: contain;
 }
 video {
@@ -725,7 +725,7 @@ video:hover {
     border-radius: 20px;
 }
 .hike{
-    background-image: url("/IMAGES/P2.jpg");
+    background-image: url("P2.jpg");
     background-position: center;
     background-size: cover;
     transition: .2s ease-in-out;
@@ -735,7 +735,7 @@ video:hover {
     align-items: center;
 }
 .drone{
-    background-image: url("/IMAGES/P3.jpg");
+    background-image: url("P3.jpg");
     background-position: center;
     background-size: cover;
     transition: .2s ease-in-out;
@@ -745,7 +745,7 @@ video:hover {
     align-items: center;
 }
 .motorsports{
-    background-image: url("/IMAGES/P1.jpg");
+    background-image: url("P1.jpg");
     background-position: center;
     background-size: cover;
     transition: .2s ease-in-out;
@@ -817,7 +817,7 @@ video:hover {
     border-radius: 50%;
     border: none;
     background-color: white;
-    background-image: url("/IMAGES/elias.jpg");
+    background-image: url("elias.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -971,7 +971,7 @@ nav .Nav_ul ul li:hover{
 }
 
 .one {
-    background-image: url('/IMAGES/E1.jpg');
+    background-image: url('/E1.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -979,14 +979,14 @@ nav .Nav_ul ul li:hover{
     position: relative;
 }
 .two {
-    background-image: url('/IMAGES/E2.jpg');
+    background-image: url('E2.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 .three{
-    background-image: url('/IMAGES/E3.jpg');
+    background-image: url('E3.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -995,7 +995,7 @@ nav .Nav_ul ul li:hover{
 
 }
 .four {
-    background-image: url('/IMAGES/E4.jpg');
+    background-image: url('E4.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1004,7 +1004,7 @@ nav .Nav_ul ul li:hover{
 
 }
 .five{
-    background-image: url('/IMAGES/E5.jpg');
+    background-image: url('E5.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1013,7 +1013,7 @@ nav .Nav_ul ul li:hover{
 
 }
 .six {
-    background-image: url('/IMAGES/E6.jpg');
+    background-image: url('E6.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
